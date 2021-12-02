@@ -2,7 +2,6 @@
 using System.IO;
 using System.Text;
 
-
 namespace AdventOfCode_2021_Day2
 {
     public static class Program
@@ -39,7 +38,6 @@ namespace AdventOfCode_2021_Day2
                 }
             }
             Console.WriteLine(depth*distance);
-
         }
     }
 }
