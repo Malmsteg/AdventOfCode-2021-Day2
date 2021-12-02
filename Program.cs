@@ -5,9 +5,9 @@ using System.Text;
 
 namespace AdventOfCode_2021_Day2
 {
-    class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             string currentDirectory = AppDomain.CurrentDomain.BaseDirectory;
             string file = Path.Combine(currentDirectory, @"..\..\..\input.txt");
